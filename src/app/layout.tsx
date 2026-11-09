@@ -14,6 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://my-portfolio-peach-six-68.vercel.app"),
   title: {
     default: "Abdelsalam Issa | Software Developer",
     template: "%s | Abdelsalam Issa",

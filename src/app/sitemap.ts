@@ -1,7 +1,8 @@
 import type { MetadataRoute } from "next";
 
 const baseUrl =
-    process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+    process.env.NEXT_PUBLIC_SITE_URL ??
+    "https://my-portfolio-peach-six-68.vercel.app";
 
 export default function sitemap(): MetadataRoute.Sitemap {
     return [
